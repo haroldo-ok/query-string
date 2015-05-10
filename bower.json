@@ -1,0 +1,20 @@
+{
+  "name": "query-string",
+  "main": "index.js",
+  "version": "2.1.1_haroldo-ok",
+  "homepage": "https://github.com/haroldo-ok/query-string",
+  "authors": [
+    "Haroldo de Oliveira Pinheiro <haroldoop@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
