@@ -1,5 +1,7 @@
 'use strict';
 
+define(function(require, exports, module) {
+
 exports.parse = function (str) {
 	if (typeof str !== 'string') {
 		return {};
@@ -46,3 +48,5 @@ exports.stringify = function (obj) {
 		return encodeURIComponent(key) + '=' + encodeURIComponent(val);
 	}).join('&') : '';
 };
+
+});
